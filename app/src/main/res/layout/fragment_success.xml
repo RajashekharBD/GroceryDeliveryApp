@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white">
+
+    <!-- Success Icon -->
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_check_circle"
+        android:tint="@color/green"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Success Message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Placed Successfully!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Order ID -->
+    <TextView
+        android:id="@+id/orderIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order ID: ORD123456"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Delivery Time -->
+    <TextView
+        android:id="@+id/deliveryTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expected delivery: Today, 6:00 PM - 8:00 PM"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/continueShoppingButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="CONTINUE SHOPPING"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/orange"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/trackOrderButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="TRACK ORDER"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/green"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>
