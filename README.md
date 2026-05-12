@@ -89,3 +89,7 @@ app/src/main/java/com/example/grocery/
     ├── checkout/  # CheckoutFragment
     └── success/   # SuccessFragment
 ```
+## 📱 Download APK
+
+Download the latest version here:
+https://github.com/RajashekharBD/GroceryDeliveryApp/releases/tag/v1.0
